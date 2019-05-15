@@ -145,7 +145,7 @@ app.put('/otrosFormatos/:formato/:id', verificaToken, function (req, res) {
   const id = req.params.id;
 
   console.log('formato: ', formato, ' id: ', id);
-  console.log('files: ', req.files);
+  console.log('xfiles: ', req.files);
   
 
   //console.log(util.inspect(myObject, { showHidden: false, depth: null }))
